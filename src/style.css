@@ -1,0 +1,163 @@
+body {
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cabeçalho {
+    background-color: var(--verde-base);
+}
+
+.pesquisa {
+    background-color: white;
+}
+
+.menu-item, .navbar-brand {
+    color: var(--verde-escuro);
+    font-family: 'Quicksand', sans-serif;
+}
+
+.navbar-brand {
+    font-size: 30px;
+}
+
+.menu-item {
+    font-size: 22px;
+}
+
+.menu-item:hover, .navbar-brand:hover {
+    color: #92afa0;
+    transition: 0.1s;
+}
+
+.seção-titulo {
+    background-color: rgb(215, 255, 237);
+}
+
+.title-site {
+    font-family: 'Satisfy', cursive;
+    font-size: 2.5em;
+    color: var(--verde-escuro);
+}
+
+.carousel img {
+    height: 500px;
+    width: 1.5em;
+    object-fit: cover;
+}
+
+
+.img-home {
+    height: 450px;
+}
+
+.img-home2 {
+    height: 500px;
+}
+
+.text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+ }
+
+.beneficios {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.beneficios-bichinhos {
+    font-family: 'Quicksand';
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+.card-1 {
+    background-color: var(--verde-base);
+    color: var(--verde-escuro);
+    border-radius: 20px;
+}
+
+.adote img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.6;
+}
+
+.adote h5 {
+    margin-top: 150px;
+    font-size: 4em;
+}
+
+.adote h5:hover {
+    color: var(--verde-escuro) !important;
+    transition: 0.2s;
+    animation-name: zoom;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+
+
+.card-adote {
+    background-color: black;
+}
+
+.img-adote {
+    cursor: pointer;
+}
+
+.small {
+    color: #8f8f8f;
+}
+
+.meio-circulo {
+    position: fixed;
+    display: flex;
+    z-index: 3;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--verde-escuro);
+    width: 140px;
+    height: 120px;
+    border-radius: 100%;
+    color: white;
+    transform-origin: bottom right;
+    top: auto;
+    bottom: 50%;
+    right: -35px;
+    transform: rotate(-90deg) translateX(100%);
+    cursor: pointer;
+}
+
+.modal-header {
+    background-color: var(--verde-escuro);
+    color: white;
+}
+
+.btn-ajudar {
+    background-color: var(--verde-base);
+    color: var(--verde-escuro);
+}
+
+@keyframes zoom {
+    from {scale: 1;}
+    to {scale: 1.2;}
+}
+
+footer {
+    background-color: var(--verde-base);
+    color: var(--verde-escuro);
+   
+}
+
+
+footer .bi {
+    color: var(--verde-escuro);
+}
+
+footer .bi:hover {
+    color: #92afa0;
+    transition: 0.1s;
+}
